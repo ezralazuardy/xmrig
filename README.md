@@ -12,8 +12,8 @@ A custom configured xmrig cypto miner that work best in linux cloud.
 - 
 ### 📥 Installation
 
+- Install [git](https://command-not-found.com/git) and [msr-tools](https://command-not-found.com/wrmsr) on your operating system
 - Clone this repository to your Cloud / VPS in `/etc/xmrig/` directory (running `git clone` with `sudo` is recommended)
-- Install [msr-tools](https://command-not-found.com/wrmsr) on your operating system
 - Run `sudo chown -R <user>:<user> /etc/xmrig`, make sure to change the `<user>` with your username
 - Configure the miner by running `./config`
 - Run the boost script (usage read below) by running `./boost`
