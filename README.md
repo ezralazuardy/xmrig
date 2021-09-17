@@ -4,16 +4,12 @@ A custom configured xmrig cypto miner that work best in linux cloud.
 
 > This repository is based on the original xmrig [v6.15.0](https://github.com/xmrig/xmrig/releases/tag/v6.15.0) for linux
 
-<br/>
-
 ### 👌 Requirements
 
 - Cloud / VPS with `linux` operating system
 - Having minimal 1 core vCPU (2 vCPU is recommended)
 - Having minimal 4GB RAM (8GB is recommended if the server is used for other process, e.g. web server)
-
-<br/>
-
+- 
 ### 📥 Installation
 
 - Clone this repository to your Cloud / VPS in `/etc/xmrig/` directory (running `git clone` with `sudo` is recommended)
@@ -27,8 +23,6 @@ A custom configured xmrig cypto miner that work best in linux cloud.
 
 > The current miner session can be viewed by running `./monitor`
 
-<br/>
-
 ### 🤖 Usage
 
 - `./config` will open the editor for miner configuration
@@ -37,8 +31,6 @@ A custom configured xmrig cypto miner that work best in linux cloud.
 - `./boost` will apply a CPU register patch for your device (works on machine host only, virtual machine will not be affected)
 - `./enable_1gbp` will apply a CPU 1GB pages patch (works on supported CPU only)
 - `./clear_cache` will clear the cache in current machine (not recommended to be used when miner is running)
-
-<br/>
 
 ### ⚠️ Warning
 
