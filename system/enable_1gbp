@@ -9,4 +9,4 @@ do
     echo 3 > "$i/hugepages/hugepages-1048576kB/nr_hugepages";
 done
 
-echo "1GB pages successfully enabled\n"
+echo "1GB pages successfully enabled"
