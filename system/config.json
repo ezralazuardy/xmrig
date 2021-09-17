@@ -33,6 +33,7 @@
         "priority": 2,
         "memory-pool": true,
         "yield": true,
+        "max-threads-hint": 100,
         "asm": true,
         "argon2-impl": null,
         "astrobwt-max-size": 550,
@@ -90,7 +91,6 @@
     "log-file": null,
     "donate-level": 1,
     "donate-over-proxy": 1,
-    "max-cpu-usage": 100,
     "pools": [
         {
             "algo": null,
