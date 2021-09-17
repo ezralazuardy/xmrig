@@ -96,8 +96,8 @@
         {
             "algo": null,
             "coin": "XMR",
-            "url": "sg.minexmr.com:443",
-            "user": "48Brgnhdv589UAdN54hJsa1tTgfzvdcDPe4fXzCKnKXV4E1FykeFHhMR6eDvBafxDEWf8iAoouxcafMMRCU5Q95K3caWQ8y",
+            "url": "",
+            "user": "",
             "pass": "x",
             "rig-id": "default",
             "nicehash": false,
