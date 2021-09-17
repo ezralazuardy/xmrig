@@ -1,6 +1,6 @@
 # 🪙 xmrig
 
-A custom configured xmrig cypto miner that work best in cloud.
+A custom configured xmrig cypto miner that work best in linux cloud.
 
 ### Requirements
 
@@ -22,7 +22,7 @@ A custom configured xmrig cypto miner that work best in cloud.
 
 ### Usage
 
-- './config` will open the editor for miner configuration
+- `'./config` will open the editor for miner configuration
 - `./start` will start the miner in linux screen session
 - `./monitor` will monitor the current miner session
 - `./boost` will apply a CPU register patch for your device (works on machine host only, virtual machine will not be affected)
