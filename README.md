@@ -9,7 +9,7 @@ A custom configured xmrig cypto miner that work best in linux cloud.
 - Cloud / VPS with `linux` operating system
 - Having minimal 1 core vCPU (2 vCPU is recommended)
 - Having minimal 4GB RAM (8GB is recommended if the server is used for other process, e.g. web server)
-- 
+
 ### 📥 Installation
 
 - Install [git](https://command-not-found.com/git) and [msr-tools](https://command-not-found.com/wrmsr) on your operating system
