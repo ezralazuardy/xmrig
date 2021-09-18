@@ -42,7 +42,7 @@ A custom configured xmrig CPU cypto miner that work best in linux cloud.
 
 ## ⚠️ Warning
 
-Since many Cloud / VPS provider prohibit any crypto mining activity in their platform, we recommend only to run 1 instance of this miner only on a single machine.
+Since many Cloud / VPS provider prohibit any crypto mining activity in their platform, it's recommended to only run 1 instance of this miner on a single machine.
 
 Highly recommended to set the `max-threads-hint` configuration to `50`. For more details, check out [here](https://github.com/xmrig/xmrig/blob/beta/doc/CPU_MAX_USAGE.md). Configuring the script to run with delay or scheduler is also recommended to bypass the cloud platform defend system for suspicious activity (if crypto mining is not eligible by their term of services).
 
