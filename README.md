@@ -38,4 +38,4 @@ Since many Cloud / VPS provider is banning crypto mining in their platform, we r
 
 Highly recommended to set the `max-threads-hint` configuration to `50`. For more details, check out [here](https://github.com/xmrig/xmrig/blob/beta/doc/CPU_MAX_USAGE.md).
 
-Configuring the script to run 1 hour with 15 minute delay also recommended to bypass the cloud platform defend system for suspicious activity (if crypto mining is not eligible by their term of services).
+Configuring the script to run every 1 hour with 10 minute delay also recommended to bypass the cloud platform defend system for suspicious activity (if crypto mining is not eligible by their term of services).
