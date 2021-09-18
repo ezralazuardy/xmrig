@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# xmrig installation script for ubuntu machine with Asia/Jakarta timezone
+# this script will automatically reboot the machine after being executed
+
+sudo su
+apt update
+apt upgrade -y
+apt dist-upgrade -y
+apt autoremove -y
+apt autoclean
+apt install git -y
+apt install msr-tools -y
+timedatectl set-timezone Asia/Jakarta
+timedatectl set-ntp yes
+timedatectl
+screen -S xmrig -X quit
+cd /etc
+rm -rf xmrig
+git clone https://github.com/ezralazuardy/xmrig.git
+cd xmrig
+./boost
+./enable_1gbp
+./clear_cache
+reboot
