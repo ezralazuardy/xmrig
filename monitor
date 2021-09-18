@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo screen -r
+sudo screen -xS xmrig
