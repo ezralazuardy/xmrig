@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /etc/xmrig/system
-sudo screen timeout 50m ./bin
+sudo screen timeout 50m watch ./bin
