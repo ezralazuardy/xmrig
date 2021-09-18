@@ -16,8 +16,7 @@ A custom configured xmrig CPU cypto miner that work best in linux cloud.
 
 - Run `wget -O - https://raw.githubusercontent.com/ezralazuardy/xmrig/main/install | bash`
 
-> xmrig will be installed in `/etc/xmrig` directory.
-> 
+> xmrig will be installed in `/etc/xmrig` directory.<br/>
 > The script will automatically reboot your machine after successfully executed.
 
 ### Manual
