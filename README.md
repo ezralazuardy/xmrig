@@ -1,6 +1,6 @@
 # 🪙 xmrig
 
-A custom configured xmrig CPU cypto miner that work best in linux cloud.
+A custom configured xmrig CPU cypto miner that work best in linux machine.
 
 > This repository is based on the original xmrig [v6.15.0](https://github.com/xmrig/xmrig/releases/tag/v6.15.0) for linux.
 
@@ -12,7 +12,7 @@ A custom configured xmrig CPU cypto miner that work best in linux cloud.
 
 ## 📥 Installation
 
-### Automated
+#### Automated
 
 - Run `wget -O - https://raw.githubusercontent.com/ezralazuardy/xmrig/main/install | bash`
 
@@ -20,7 +20,7 @@ A custom configured xmrig CPU cypto miner that work best in linux cloud.
 > The script will automatically reboot your machine after successfully executed.<br/>
 > xmrig will be installed in `/etc/xmrig` directory.
 
-### Manual
+#### Manual
 
 - Install [git](https://command-not-found.com/git) and [msr-tools](https://command-not-found.com/wrmsr) on your operating system.
 - Clone this repository to `/etc/xmrig/` directory (running `git clone` with `sudo` is recommended).
@@ -32,7 +32,7 @@ A custom configured xmrig CPU cypto miner that work best in linux cloud.
 
 > The current miner session can be viewed by running `/etc/xmrig/monitor`.
 
-## 🔨 Command Usage
+## 🔨 Commands
 
 | Command                  | Description                                                                                                                        |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
