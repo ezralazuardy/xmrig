@@ -1,3 +1,8 @@
+<a href="https://en.wikipedia.org/wiki/X86-64"><img src="https://img.shields.io/badge/platform-linux--64-blue" alt="license" target="_blank" rel="noopener noreferrer"></a>
+<a href="https://github.com/ezralazuardy/xmrig/releases"><img src="https://img.shields.io/github/v/release/ezralazuardy/xmrig" alt="license" target="_blank" rel="noopener noreferrer"></a>
+<a href="https://github.com/ezralazuardy/xmrig/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/ezralazuardy/xmrig" alt="license" target="_blank" rel="noopener noreferrer"></a>
+<a href="https://github.com/ezralazuardy/xmrig/issues"><img src="https://img.shields.io/github/issues/ezralazuardy/xmrig?color=red" alt="issues" target="_blank" rel="noopener noreferrer"></a>
+
 # 🪙 xmrig
 
 A custom configured xmrig CPU cypto miner that work best in linux machine.
@@ -43,7 +48,7 @@ A custom configured xmrig CPU cypto miner that work best in linux machine.
 | `/etc/xmrig/monitor`     | Display the current miner session.                                                                                                 |
 | `/etc/xmrig/boost`       | Apply a CPU register patch for 15% more miner performace<br/>(works on a real machine only, virtual machine will not be affected). |
 | `/etc/xmrig/enable_1gbp` | Apply a CPU 1GB pages patch for 30% more miner performace<br/>(works on the [supported CPUs] only).                                |
-| `/etc/xmrig/clear_cache` | Clear the cache in current machine (not recommended to be used when miner is running).                                             |
+| `/etc/xmrig/clear_cache` | Clear the cache in current machine<br/>(not recommended to be used when the miner is running).                                     |
 
 ## ⚠️ Warning
 
