@@ -24,32 +24,32 @@ A custom configured xmrig CPU cypto miner that work best in linux cloud.
 
 - Install [git](https://command-not-found.com/git) and [msr-tools](https://command-not-found.com/wrmsr) on your operating system.
 - Clone this repository to `/etc/xmrig/` directory (running `git clone` with `sudo` is recommended).
-- Configure the miner by running `./config`.
-- Run the boost script by running `./boost`.
-- Run the 1GB pages enabler script by running `./enable_1gbp`.
-- Run the clear cache script by running `./clear_cache`.
-- Finally, start the miner by running `./start`.
+- Configure the miner by running `/etc/xmrig/config`.
+- Run the boost script by running `/etc/xmrig/boost`.
+- Run the 1GB pages enabler script by running `/etc/xmrig/enable_1gbp`.
+- Run the clear cache script by running `/etc/xmrig/clear_cache`.
+- Finally, start the miner by running `/etc/xmrig/start`.
 
-> The current miner session can be viewed by running `./monitor`.
+> The current miner session can be viewed by running `/etc/xmrig/monitor`.
 
 ## 🔨 Command Usage
 
-| Command         | Description                                                                                                                        |
-| --------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| `./install`     | Install the xmrig to `/etc/xmrig/` directory<br/>(this command will remove the previous xmrig installation).                       |
-| `./config`      | Open the editor for miner configuration.                                                                                           |
-| `./start`       | Start the miner in the linux screen session.                                                                                       |
-| `./stop`        | Stop the current miner session.                                                                                                    |
-| `./monitor`     | Display the current miner session.                                                                                                 |
-| `./boost`       | Apply a CPU register patch for 15% more miner performace<br/>(works on a real machine only, virtual machine will not be affected). |
-| `./enable_1gbp` | Apply a CPU 1GB pages patch for 30% more miner performace<br/>(works on the [supported CPUs] only). |
-| `./clear_cache` | Clear the cache in current machine (not recommended to be used when miner is running).                                             |
+| Command                  | Description                                                                                                                        |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| `/etc/xmrig/install`     | Install the xmrig to `/etc/xmrig/` directory<br/>(this command will remove the previous xmrig installation).                       |
+| `/etc/xmrig/config`      | Open the editor for miner configuration.                                                                                           |
+| `/etc/xmrig/start`       | Start the miner in the linux screen session.                                                                                       |
+| `/etc/xmrig/stop`        | Stop the current miner session.                                                                                                    |
+| `/etc/xmrig/monitor`     | Display the current miner session.                                                                                                 |
+| `/etc/xmrig/boost`       | Apply a CPU register patch for 15% more miner performace<br/>(works on a real machine only, virtual machine will not be affected). |
+| `/etc/xmrig/enable_1gbp` | Apply a CPU 1GB pages patch for 30% more miner performace<br/>(works on the [supported CPUs] only).                                |
+| `/etc/xmrig/clear_cache` | Clear the cache in current machine (not recommended to be used when miner is running).                                             |
 
 ## ⚠️ Warning
 
 Since many Cloud / VPS provider prohibit any cryptocurrency mining activity in their platform, it's recommended to only run 1 instance of this miner on a single machine.
 
-Highly recommended to set the `max-threads-hint` configuration to `50`. For more details, check out [here](https://github.com/xmrig/xmrig/blob/beta/doc/CPU_MAX_USAGE.md). Configuring the script to run with delay or scheduler is also recommended to bypass the cloud platform anti-fraud system for suspicious activity (if cryptocurrency mining is not eligible by their term of services).
+Highly recommended to set the `max-threads-hint` miner configuration to `50`. For more details, check out [here](https://github.com/xmrig/xmrig/blob/beta/doc/CPU_MAX_USAGE.md). Configuring the script to run with delay or scheduler is also recommended to bypass the cloud platform anti-fraud system for suspicious activity (if cryptocurrency mining is not eligible by their term of services).
 
 **I'm not responsible for any damage or loss as a result of using this tool.**
 
