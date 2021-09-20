@@ -1,7 +1,8 @@
 #!/bin/bash
 
-# xmrig installation script for ubuntu machine with Asia/Jakarta timezone
-# this script will automatically reboot the machine after successfully executed
+# xmrig installation script for Ubuntu 18+ machine.
+# this script will automatically reboot the machine after successfully executed.
+# the default machine's timezone will be set to with Asia/Jakarta (can be changed after the script execution process).
 
 sudo su
 apt update
